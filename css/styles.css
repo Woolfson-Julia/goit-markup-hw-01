@@ -1,23 +1,25 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #2e2f42;
+  background-color: #fff;
 }
 
 ul {
   list-style-type: none;
 }
 
-/* Navigation */
-.navigation {
-  background-color: #fff;
+a {
+  text-decoration: none;
 }
+
+/* Navigation */
+
 .navigation-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .navigation-logo-web {
@@ -28,7 +30,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-decoration: none;
 }
 
 .navigation-link:hover,
@@ -43,7 +44,6 @@ ul {
   line-height: 1.5;
   color: #434455;
   font-style: normal;
-  text-decoration: none;
 }
 
 .contacts .contacts-link:hover,
@@ -54,9 +54,6 @@ ul {
 /* Main content */
 
 /* Wrapper */
-.main-content-features {
-  background-color: #fff;
-}
 
 .main-content-wrapper {
   background: #2e2f42;
@@ -85,9 +82,7 @@ ul {
 }
 
 /* Features */
-.main-content-features {
-  background-color: #fff;
-}
+
 .main-content-features-title {
   color: #fff;
 }
@@ -119,7 +114,7 @@ ul {
 }
 
 .main-content-team-list {
-  background: #fff;
+  background-color: #fff;
 }
 
 .main-content-team-list-name {
@@ -137,9 +132,6 @@ ul {
 }
 
 /* Our portfolio */
-.main-content-portfolio {
-  background-color: #fff;
-}
 
 .main-content-portfolio-title {
   font-weight: 700;
@@ -170,7 +162,6 @@ ul {
   font-size: 18px;
   line-height: 1.16667;
   text-transform: uppercase;
-  text-decoration: none;
   color: #f4f4fd;
 }
 
